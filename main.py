@@ -1,16 +1,41 @@
-# This is a sample Python script.
+print("Welcome to Personal Expense Tracker")
+def show_menu():
+    print("\n========== PERSONAL EXPENSE TRACKER ==========")
+    print("1. Add Expense")
+    print("2. View Expenses")
+    print("3. Search Expense")
+    print("4. Monthly Report")
+    print("5. Edit Expense")
+    print("6. Delete Expense")
+    print("7. Exit")
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
+while True:
+    show_menu()
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+    choice = input("Enter your choice: ")
 
+    if choice == "1":
+        print("Add Expense Selected")
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+    elif choice == "2":
+        print("View Expenses Selected")
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    elif choice == "3":
+        print("Search Expense Selected")
+
+    elif choice == "4":
+        print("Monthly Report Selected")
+
+    elif choice == "5":
+        print("Edit Expense Selected")
+
+    elif choice == "6":
+        print("Delete Expense Selected")
+
+    elif choice == "7":
+        print("Thank you for using Personal Expense Tracker!")
+        break
+
+    else:
+        print("Invalid choice! Please try again.")
