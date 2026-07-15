@@ -1,2 +1,4 @@
 id,date,category,amount,description
-1,2026-03-25,Shopping,1500.0,Buy Clothes
+1,2026-07-11,Food,50.0,Vegetables
+2,2026-07-12,Transport,180.0,Sanchi Stupa Trip
+3,2026-07-14,Shopping,100.0,Grocery
